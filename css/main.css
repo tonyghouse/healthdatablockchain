@@ -1,0 +1,48 @@
+/* color palletes ---> main colors:main-#05192d   
+color1-#03ef62   
+color2-#06bdfc 
+color3-#974dff   
+color4-#ff6ea9 
+color5-#7933ff    */
+
+
+body{
+
+background-color:#05192d;
+color:#03ef62
+}
+.headercls{
+    font-size:xx-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    align-self:center;
+}
+.navcls{
+    background-color:#05192d;
+    overflow: hidden;
+}
+.navcls>a{
+    float:right;
+    color:white ;
+    text-align: center;
+    text-decoration: none;
+    font-size:large;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+   
+   
+}
+.navcls a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.introtext{
+    display:inline;
+    color:white;
+    font-size:large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    align-self:center;
+}
