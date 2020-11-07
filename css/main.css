@@ -37,6 +37,10 @@ color:#03ef62
     background-color: #ddd;
     color: black;
   }
+.navcls a:active{
+    background-color:grey;
+    
+}
 
 .introtext{
     display:inline;
