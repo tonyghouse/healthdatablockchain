@@ -1,5 +1,2 @@
-# healthdatablockchain
-Health care data mangement by blockchain
-Blockchain tech is used to store, access & update health data by users & doctors using a web interface.
-Languages- html, css, javascript, java (jsp)
-Tools- eclipse IDE, apache tomcat, mysql
+# cardfrauddetectionbypyml
+Credit card frauds are detected by using ml algo adaboost on  existing fraud data. Fraud detection helps users, ecom owners,bank admins to detect frauds. Languages- html, css, javascript, python Tools- django, pychram IDE

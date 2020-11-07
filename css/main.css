@@ -1,0 +1,59 @@
+/* color palletes --->
+Dark Blue: #12232E
+
+Lighter Blue: #007CC7
+
+Lightest Blue: #4DA8DA
+
+Shadow of Dark Blue: #203647
+
+Shadow of Light Blue: #EEFBFB  */
+
+
+body{
+
+background-color:#12232E;
+color:white;
+}
+.headercls{
+    font-size:xx-large;
+    font-family: 'Josepine Sans', sans-serif;
+    font-weight:bolder;
+    align-self:center;
+}
+.navcls{
+    background-color:#007CC7;
+    overflow: hidden;
+}
+.navcls>a{
+    float:right;
+    color:white ;
+    text-align: center;
+    text-decoration: none;
+    font-size:large;
+    font-weight:bold;
+    font-family: 'Josepine Sans', sans-serif;
+    padding: 10px;
+   
+   
+}
+.navcls a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.navcls a:active{
+    background-color:grey;
+    
+}
+
+.introtext{
+    display:inline;
+    color:white;
+    font-size:large;
+    font-family: 'Josepine Sans', sans-serif;
+    font-weight:bold;
+    align-self:center;
+}
+.logoimg{
+    display:inline-block;
+}
