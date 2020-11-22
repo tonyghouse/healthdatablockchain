@@ -1,2 +1,2 @@
-# cardfrauddetectionbypyml
-Credit card frauds are detected by using ml algo adaboost on  existing fraud data. Fraud detection helps users, ecom owners,bank admins to detect frauds. Languages- html, css, javascript, python Tools- django, pychram IDE
+# healthyne
+HealthCare Data management is utilizing blockchain technology to revolutionize the Health care industry. By using blockchain to facilitate better collaborationbetween Users,Doctors and hospitals around the common goal ofreliable and timely delivery of devices to patients.Health Data BlockChain solves the problem of the outdated, time sensitive and expensive medical device supply chain currently in place.
