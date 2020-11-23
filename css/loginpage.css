@@ -2,7 +2,7 @@ body{
     background-color:#05192d;
 }
 form{
-    border:white 3px solid;
+    background-color:white
     height:500px;
     width:300px;
 }
