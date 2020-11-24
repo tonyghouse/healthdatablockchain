@@ -2,7 +2,10 @@ body{
     background-color:#05192d;
 }
 form{
-    background-color:white;
-    height:500px;
-    width:300px;
+    
+    background: hsla(0,0%,100%,.3);
+    padding: 50px 44px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    
 }
