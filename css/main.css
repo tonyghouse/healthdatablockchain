@@ -12,7 +12,11 @@ color:#03ef62
 }
 
 .headbar{
+    position:sticky;
+    top:0;
     display:block;
+    background-color:#05192d;
+    border-bottom:#03ef62 1px solid;
   }
 .headercls{
     display:inline-block;
@@ -25,14 +29,13 @@ color:#03ef62
     align-self:center;
   }
 
-  .navcls{
+  .navcls {
     display:inline-block;
     color:white;
-    float:right;
     text-align: right;
     padding:2% 0%;
-    background-color:#05192d;
     overflow: hidden;
+    align-self: right;
 
   }
 
