@@ -7,22 +7,36 @@ color5-#7933ff    */
 
 
 body{
-
 background-color:#05192d;
 color:#03ef62
 }
+
+.headbar{
+    display:block;
+  }
 .headercls{
+    display:inline-block;
+    color:white;
+    word-break: break-all;
+    padding:2% 0%;
     font-size:xx-large;
     font-family: 'Montserrat', sans-serif;
     font-weight:bolder;
     align-self:center;
-}
-.navcls{
-    display:block;
-    
+  }
+
+  .navcls{
+    display:inline-block;
+    color:white;
+    float:right;
+    text-align: right;
+    padding:2% 0%;
     background-color:#05192d;
     overflow: hidden;
-}
+
+  }
+
+
 .navcls>a{
     float:right;
     color:white ;
