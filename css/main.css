@@ -40,8 +40,8 @@ color:#03ef62
   }
 
 
-.navcls>a{
-    float:right;
+.navcls li{
+    display:inline-block;
     color:white ;
     text-align: center;
     text-decoration: none;
@@ -49,11 +49,14 @@ color:#03ef62
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
-   
+.navcls a{
+  color:white;
+  text-decoration:none;
+  }
    
 }
 .navcls a:hover {
-    background-color: #ddd;
+    background-color: whitesmoke;
     color: black;
   }
 .navcls a:active{
