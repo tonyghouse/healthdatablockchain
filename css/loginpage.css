@@ -3,16 +3,22 @@ body{
 }
 form{
 
-    background: hsla(0,0%,100%,.3);
+    background: rgba(5, 25, 45, 0.5);
     padding: 50px 50px 0;
     border: 1px solid #05192d;
     border-radius: 4px;
     width:400px;
     height:300px;
+    margin:100px auto;
 
     
 }
 .formcontainer{
-    margin:100px auto;
+    display:block;
+}
+
+.loginform>*{
+    display:block;
+    padding:20px;
 
 }

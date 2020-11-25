@@ -18,6 +18,8 @@ color:#03ef62
     align-self:center;
 }
 .navcls{
+    display:block;
+    
     background-color:#05192d;
     overflow: hidden;
 }
