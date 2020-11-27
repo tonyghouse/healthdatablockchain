@@ -13,6 +13,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .headbar{
+    z-index: 100;
     position:sticky;
     top:0;
     display:flex;
@@ -23,6 +24,7 @@ font-family: 'Montserrat', sans-serif;
   }
   .headerlogo{
     display: inline-block;
+    align-self:center;
   }
 .headercls{
     display:inline-block;
@@ -34,7 +36,6 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .navcls {
-    width:50%;
     display:inline-block;
     align-self:center;
     color:white;
