@@ -36,7 +36,6 @@ color:#03ef62
     padding:2% 0%;
     overflow: hidden;
     align-self: right;
-
   }
 
 
@@ -49,6 +48,7 @@ color:#03ef62
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
+}
 .navcls a{
   color:white;
   text-decoration:none;
