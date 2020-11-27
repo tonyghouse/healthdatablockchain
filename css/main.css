@@ -85,6 +85,10 @@ font-family: 'Montserrat', sans-serif;
     align-self:center;
     line-height:1.7;
 }
+.animationimg{
+  display:inline-block;
+  width:30%;
+}
 
 .productfeaturescls{
   margin:10px;
