@@ -95,9 +95,9 @@ font-family: 'Montserrat', sans-serif;
   height:250px;
 }
 .landingimage:hover{
-       -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
+       -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        transform: scale(0.7);
 }
 
 .productfeaturescls{
