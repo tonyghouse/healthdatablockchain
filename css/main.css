@@ -15,6 +15,7 @@ color:#03ef62
     position:sticky;
     top:0;
     display:flex;
+    flex-direction: row;
     background-color:#05192d;
     border-bottom:#03ef62 1px solid;
     padding:1% 0%;
@@ -30,14 +31,15 @@ color:#03ef62
   }
 
   .navcls {
-    display:inline-block;
-    align-items: right;
+    display:block;
     color:white;
     text-align: right;
     overflow: hidden;
     
   }
-
+.navcls ul{
+  display: block;
+}
 .navcls li{
     display:inline;
     color:white ;
