@@ -22,10 +22,6 @@ font-family: 'Montserrat', sans-serif;
     background-color:#05192d;
     border-bottom:#03ef62 1px solid;
   }
-  .headerlogo{
-    display: inline-block;
-    align-self:center;
-  }
 .headercls{
     display:inline-block;
     color:white;
