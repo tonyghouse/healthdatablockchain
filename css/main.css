@@ -8,14 +8,15 @@ color5-#7933ff    */
 
 body{
 background-color:#05192d;
-color:#03ef62
+color:#03ef62;
+font-family: 'Montserrat', sans-serif;
 }
 
 .headbar{
     position:sticky;
     top:0;
     display:flex;
-    flex-direction: row;
+    justify-content:space-between;
     padding:1% 0%;
     background-color:#05192d;
     border-bottom:#03ef62 1px solid;
@@ -39,17 +40,15 @@ color:#03ef62
     color:white;
     overflow: hidden;
     text-align:left;
+    list-style: none;
     
   }
-.navcls ul{
-  list-style-type: none;
-}
 .navcls li{
-    display:inline;
+    display:inline-block;
     font-size:large;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
-    padding:0.5vw;
+    padding:0 0.6vw;
 }
 .navcls a{
   color:white;
@@ -65,22 +64,82 @@ color:#03ef62
     background-color:grey;
     
 }
+.projecttitlecls{
+  color:white;
+  font-size:xx-large;
+  font-weight:bold;
+  display: inline-block;
+  padding:2% 0%;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+
+}
 
 .introtextcls{
-    display:inline;
+    width:60%;
+    display:inline-block;
     color:white;
-    font-size:large;
+    font-size:x-large;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     align-self:center;
-    line-height:1.6;
+    line-height:1.7;
 }
+
+.productfeaturescls{
+  margin:10px;
+  color:#05192d;
+  
+  
+}
+.column:hover{
+  background-color:#03ef62 ;
+  
+}
+/* Add padding BETWEEN each column (if you want) */
+.productfeaturescls,
+.productfeaturescls > .column {
+
+  padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 31%;
+  
+}
+.column a{
+  color:black;
+  text-decoration: none;
+}
+
+/* Clear floats after productfeaturesclss */
+.productfeaturescls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding:3.4%;
+}
+
+
+
 .footercls{
+    display:flex;
+    align-items:center;
     height:100px;
     background-color: #03ef62;
     color:white;
-    font-size:xx-large;
+    font-size:x-large;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
     text-align:center;
+}
+.projectdetailscls{
+  margin:auto;
 }
