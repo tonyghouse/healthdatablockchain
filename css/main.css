@@ -74,7 +74,9 @@ font-family: 'Montserrat', sans-serif;
   text-align:center;
 
 }
-
+.introsection{
+  display:block;
+}
 .introtextcls{
     width:60%;
     display:inline-block;
@@ -85,9 +87,12 @@ font-family: 'Montserrat', sans-serif;
     align-self:center;
     line-height:1.7;
 }
-.animationimg{
+.landingimage {
   display:inline-block;
-  width:30%;
+  font-size: 0;
+  text-align: center;
+  max-width:20%;  /* Container's dimensions */
+  height:250px;
 }
 
 .productfeaturescls{
