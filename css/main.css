@@ -31,14 +31,13 @@ color:#03ef62
   }
 
   .navcls {
-    display:flex;
+    display:inline-block;
     align-items: right;
     color:white;
     text-align: right;
     overflow: hidden;
     
   }
-
 
 .navcls li{
     display: inline;
@@ -48,7 +47,7 @@ color:#03ef62
     font-size:large;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
-    padding: 10px;
+    padding: 5px;
 }
 .navcls a{
   color:white;
