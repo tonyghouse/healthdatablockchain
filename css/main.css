@@ -14,14 +14,18 @@ color:#03ef62
 .headbar{
     position:sticky;
     top:0;
+    height:250px;
     display:flex;
     flex-direction: row;
+    padding:1% 0%;
     background-color:#05192d;
     border-bottom:#03ef62 1px solid;
-    padding:1% 0%;
+  }
+  .headerlogo{
+    display: inline-block;
   }
 .headercls{
-    display:inline;
+    display:inline-block;
     color:white;
     word-break: break-all;
     font-size:xx-large;
@@ -31,24 +35,23 @@ color:#03ef62
   }
 
   .navcls {
-    display:block;
+    display:inline;
+    align-self:center;
     color:white;
-    text-align: right;
+    text-align: center;
     overflow: hidden;
     
   }
 .navcls ul{
-  display: block;
+  display:inline;
 }
 .navcls li{
     display:inline;
-    color:white ;
-    text-align: center;
     text-decoration: none;
     font-size:large;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
-    padding: 5px;
+    padding:1%;
 }
 .navcls a{
   color:white;
@@ -57,7 +60,6 @@ color:#03ef62
 }
 
 .navcls a:hover {
-    padding:3px;
     background-color: #03ef62;
     color:black;
   }
