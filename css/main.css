@@ -66,11 +66,20 @@ color:#03ef62
     
 }
 
-.introtext{
+.introtextcls{
     display:inline;
     color:white;
     font-size:large;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     align-self:center;
+}
+.footercls{
+    height:100px;
+    background-color: #03ef62;
+    color:white;
+    font-size:xx-large;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
 }
