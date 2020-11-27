@@ -94,6 +94,11 @@ font-family: 'Montserrat', sans-serif;
   max-width:20%;  /* Container's dimensions */
   height:250px;
 }
+.landingimage:hover{
+       -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
 
 .productfeaturescls{
   margin:10px;
