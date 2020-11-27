@@ -18,6 +18,7 @@ font-family: 'Montserrat', sans-serif;
     top:0;
     display:flex;
     justify-content:space-between;
+    flex-wrap: wrap;
     padding:1% 0%;
     background-color:#05192d;
     border-bottom:#03ef62 1px solid;
@@ -30,8 +31,12 @@ font-family: 'Montserrat', sans-serif;
     font-weight:bolder;
     align-self:center;
   }
+  .headerlogo{
+    max-width:12%;
+  }
 
   .navcls {
+    margin-left: auto;
     display:inline-block;
     align-self:center;
     color:white;
