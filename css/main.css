@@ -14,7 +14,6 @@ color:#03ef62
 .headbar{
     position:sticky;
     top:0;
-    height:200px;
     display:flex;
     flex-direction: row;
     padding:1% 0%;
@@ -34,19 +33,19 @@ color:#03ef62
   }
 
   .navcls {
-    display:inline;
+    width:50%;
+    display:inline-block;
     align-self:center;
     color:white;
-    text-align: center;
     overflow: hidden;
+    text-align:left;
     
   }
 .navcls ul{
-  display:inline;
+  list-style-type: none;
 }
 .navcls li{
     display:inline;
-    text-decoration: none;
     font-size:large;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
