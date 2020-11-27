@@ -105,6 +105,10 @@ font-family: 'Montserrat', sans-serif;
 }
 .column:hover{
   background-color:#03ef62 ;
+  -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
   
 }
 /* Add padding BETWEEN each column (if you want) */
