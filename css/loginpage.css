@@ -16,7 +16,9 @@ form{
 .formcontainer{
     display:block;
 }
-
+.formcontainer>*{
+    display:block;
+}
 .loginform>*{
     display:block;
     padding:20px;
