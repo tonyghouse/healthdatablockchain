@@ -32,7 +32,9 @@ font-family: 'Montserrat', sans-serif;
     align-self:center;
   }
   .headerlogo{
-    max-width:12%;
+    display: inline-block;
+    height:1rem;
+    width:1rem;
   }
 
   .navcls {
