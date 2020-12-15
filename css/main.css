@@ -139,8 +139,7 @@ font-family: 'Montserrat', sans-serif;
 
 /* Create four equal columns that floats next to each other */
 .column {
-  flex: 2 2 0;
-  width: 33%;
+  flex-basis:40vw;
   
 }
 .column a{
@@ -175,4 +174,12 @@ font-family: 'Montserrat', sans-serif;
 }
 .projectdetailscls{
   margin:auto;
+}
+
+@media screen and (max-width: 600px) {
+
+  .column {
+    flex-basis:90vw;
+    
+  }
 }
