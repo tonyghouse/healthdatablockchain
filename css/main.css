@@ -100,8 +100,12 @@ font-family: 'Montserrat', sans-serif;
   text-align:center;
 
 }
-.intrologo{
+.introimagecls{
   display: inline-block;
+  justify-items: center;
+}
+.intrologo{
+ 
   height:30vw;
   width:30vw;
   padding:3% 3%;
@@ -110,6 +114,7 @@ font-family: 'Montserrat', sans-serif;
 .aboutprojectcls{ 
     display:inline-block;
     padding:3%;
+    padding-top:7%;
     color:white;
     font-size:1.2rem;
     font-family: 'Montserrat', sans-serif;
