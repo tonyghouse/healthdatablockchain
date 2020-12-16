@@ -155,12 +155,12 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-/* Clear floats after productfeaturesclss */
+/* Clear floats after productfeaturesclss 
 .productfeaturescls:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 
 .footercls{
