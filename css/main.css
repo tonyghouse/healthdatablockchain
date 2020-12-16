@@ -61,6 +61,7 @@ font-family: 'Montserrat', sans-serif;
 
 .navcls a:hover {
     background-color: #03ef62;
+    padding:5%;
     color:black;
   }
 
