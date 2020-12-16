@@ -139,7 +139,8 @@ font-family: 'Montserrat', sans-serif;
 
 /* Create four equal columns that floats next to each other */
 .column {
-  flex-basis:40vw;
+  flex-basis:43vw;
+  
   
 }
 .column a{
@@ -148,6 +149,7 @@ font-family: 'Montserrat', sans-serif;
 }
 /* Content */
 .content {
+  height:150px;
   background-color: white;
   padding:3.4%;
 }
@@ -164,7 +166,7 @@ font-family: 'Montserrat', sans-serif;
 .footercls{
     display:flex;
     align-items:center;
-    height:100px;
+    height:80px;
     background-color: #03ef62;
     color:white;
     font-size:x-large;
