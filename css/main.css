@@ -94,14 +94,16 @@ font-family: 'Montserrat', sans-serif;
   font-weight:bold;
   display: inline-block;
   position: relative;
-  padding:10% 10%;
+  padding:7% 7%;
   font-family: 'Montserrat', sans-serif;
   text-align:center;
 
 }
-introimgcls{
+.intrologo{
   display: inline-block;
-  background-color: #03ef62;
+  height:30vw;
+  width:30vw;
+  padding:3% 3%;
 }
 
 .aboutprojectcls{ 
@@ -196,5 +198,11 @@ introimgcls{
   .column {
     flex-basis:90vw;
     
+  }
+  .intrologo{
+    justify-self: center;
+    height:80vw;
+    width:80vw;
+    padding:3% 3%;
   }
 }
