@@ -85,8 +85,6 @@ font-family: 'Montserrat', sans-serif;
   color:white;
   justify-content: space-between;
   flex-wrap: wrap;
-  border:#03ef62 1px solid;
-  background-color:gray;
 }
 
 .introtextcls
@@ -103,19 +101,20 @@ font-family: 'Montserrat', sans-serif;
 }
 .introimagecls{
   display: inline-block;
-  justify-items: center;
+  justify-self: center;
+
 }
 .intrologo{
  
-  height:30vw;
-  width:30vw;
-  padding:3% 3%;
+  height:28vw;
+  width:28vw;
+  padding:4% 4%;
 }
 
 .aboutprojectcls{ 
     display:inline-block;
     padding:3%;
-    padding-top:7%;
+    padding-top:3%;
     color:white;
     font-size:1.2rem;
     font-family: 'Montserrat', sans-serif;
@@ -161,15 +160,6 @@ font-family: 'Montserrat', sans-serif;
   background-color: white;
   padding:3.4%;
 }
-
-
-/* Clear floats after productfeaturesclss 
-.productfeaturescls:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
 
 .footercls{
     display:flex;
