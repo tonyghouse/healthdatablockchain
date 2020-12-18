@@ -60,9 +60,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .navcls a:hover {
-    background-color: #03ef62;
-    padding:5%;
-    color:black;
+   border:rgba(3, 239, 98, 0.75) 1px solid ;
+   padding:5%;
   }
 
 .navcls a:active{
@@ -94,7 +93,7 @@ font-family: 'Montserrat', sans-serif;
   font-weight:bold;
   display: inline-block;
   position: relative;
-  padding:7% 7%;
+  padding:5% 5% 3% 2%;
   font-family: 'Montserrat', sans-serif;
   text-align:center;
 
@@ -106,21 +105,21 @@ font-family: 'Montserrat', sans-serif;
 }
 .intrologo{
  
-  height:28vw;
-  width:28vw;
-  padding:4% 4%;
+  height:26vw;
+  width:26vw;
+  padding:3% 4%;
 }
 
 .aboutprojectcls{ 
     display:inline-block;
-    padding:3%;
-    padding-top:3%;
+    padding:1% 5% 1% 5%;
     color:white;
     font-size:1.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     align-self:center;
     line-height:1.7;
+    border: rgba(3, 239, 98, 0.75) 1px solid;
 }
 
 .productfeaturescls{
@@ -134,7 +133,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .column:hover{
-  background-color:#03ef62 ;
+  border:rgba(3, 239, 98, 0.75) 1px solid ;
 }
   
 /* Add padding BETWEEN each column (if you want) */
@@ -189,6 +188,6 @@ font-family: 'Montserrat', sans-serif;
   .intrologo{
     height:55vw;
     width:55vw;
-    padding:4% 4%;
+    padding:3% 4%;
   }
 }
