@@ -83,7 +83,7 @@ font-family: 'Montserrat', sans-serif;
 .introsection{
   display:flex;
   color:white;
-  justify-content: space-between;
+  justify-content:center;
   flex-wrap: wrap;
 }
 
@@ -183,10 +183,12 @@ font-family: 'Montserrat', sans-serif;
     flex-basis:90vw;
     
   }
+  .introimagecls{
+    align-self:right;
+  }
   .intrologo{
-    justify-self: center;
-    height:80vw;
-    width:80vw;
-    padding:3% 3%;
+    height:55vw;
+    width:55vw;
+    padding:4% 4%;
   }
 }
