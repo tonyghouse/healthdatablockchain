@@ -1,4 +1,4 @@
-/* color palletes ---> main colors:main-#05192d   
+/* color palletes ---> main colors:main-#05192d  rgba(3, 239, 98, 1) 
 color1-#03ef62   
 color2-#06bdfc 
 color3-#974dff   
@@ -60,7 +60,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .navcls a:hover {
-   border:rgba(3, 239, 98, 0.75) 1px solid ;
+   border:#03ef62 1px solid ;
    padding:5%;
   }
 
@@ -132,7 +132,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .column:hover{
-  border:rgba(3, 239, 98, 0.75) 1px solid ;
+  border: 1px solid ;
 }
   
 /* Add padding BETWEEN each column (if you want) */
@@ -168,7 +168,7 @@ font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
     text-align:center;
-    border:rgba(3, 239, 98, 0.75) 1px solid ;
+    border:#03ef62 1px solid ;
 }
 .projectdetailscls{
   margin:auto;
