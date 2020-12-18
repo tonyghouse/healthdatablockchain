@@ -32,8 +32,8 @@ font-family: 'Montserrat', sans-serif;
   }
   .headerlogo{
     display: inline-block;
-    height:50px;
-    width:50px;
+    height:48px;
+    width:48px;
   }
 
   .navcls {
@@ -132,7 +132,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .column:hover{
-  border: 1px solid ;
+  border:#03ef62 1px solid ;
 }
   
 /* Add padding BETWEEN each column (if you want) */
@@ -149,7 +149,7 @@ font-family: 'Montserrat', sans-serif;
   
 }
 .column a{
-  color:black;
+  color:#05192d;
   text-decoration: none;
 }
 /* Content */
