@@ -163,12 +163,12 @@ font-family: 'Montserrat', sans-serif;
     display:flex;
     align-items:center;
     height:100px;
-    background-color: #03ef62;
     color:white;
-    font-size:x-large;
+    font-size:large;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
     text-align:center;
+    border:rgba(3, 239, 98, 0.75) 1px solid ;
 }
 .projectdetailscls{
   margin:auto;
