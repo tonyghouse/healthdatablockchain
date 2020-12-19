@@ -175,7 +175,9 @@ font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
-
+  .navcls li{
+  font-size:medium;
+}
 
   .column {
     flex-basis:90vw;
