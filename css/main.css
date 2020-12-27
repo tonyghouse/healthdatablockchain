@@ -192,3 +192,12 @@ font-family: 'Montserrat', sans-serif;
     padding:3% 4%;
   }
 }
+
+@media screen and (max-width: 1240px) { //to adjust for large displays
+body{
+
+  margin-left:100px;
+  margin-right:auto;
+  }
+
+}
