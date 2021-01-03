@@ -12,6 +12,20 @@ color:#03ef62;
 font-family: 'Montserrat', sans-serif;
 }
 
+.notifybar{
+  z-index: 100;
+  position:sticky;
+  top:0;
+  height:40px;
+  color: whitesmoke;
+  background-color:rgb(253, 30, 30);
+  border-bottom:#05192d 2px solid;
+  font-size:medium;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  
+
+}
 .headbar{
     z-index: 100;
     position:sticky;
